@@ -1,0 +1,26 @@
+{
+    "name": "braddle/phpunit-data-providers",
+    "description": "An Introduction to Data Providers for PHPUni",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Braddle\\Bowling\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Braddle\\Bowling\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Bradley",
+            "email": "braddle@gmail.com"
+        }
+    ],
+    "require": {}
+}

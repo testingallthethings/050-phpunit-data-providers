@@ -4,8 +4,17 @@ namespace Braddle\Bowling;
 
 class Game
 {
-    public static function blah()
+
+    public static function Score(string $game)
     {
-        return false;
+        $frames = explode(" ", $game);
+        $score = 0;
+        foreach ($frames as $frame) {
+            if ($frame[0] != "-") {
+                $score += $frame[0];
+            }
+        }
+
+        return $score;
     }
 }
